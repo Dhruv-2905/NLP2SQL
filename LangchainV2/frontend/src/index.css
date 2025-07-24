@@ -1,0 +1,31 @@
+@import '@fontsource/poppins/300.css';
+@import '@fontsource/poppins/400.css';
+@import '@fontsource/poppins/500.css';
+@import '@fontsource/poppins/600.css';
+@import '@fontsource/poppins/700.css';
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  height: 100vh;
+  margin: 0;
+}
+
+* {
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none; 
+}
+
+.view-grid.MuiDataGrid-root * {
+  scrollbar-width: auto !important;
+}
+
+.view-grid.MuiDataGrid-root ::-webkit-scrollbar {
+  display: block !important;
+}
+
